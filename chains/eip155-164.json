@@ -1,8 +1,8 @@
 {
-  "name": "Omni Testnet (incubating)",
+  "name": "Omni Omega Testnet",
   "chain": "Omni",
-  "status": "incubating",
-  "rpc": [],
+  "status": "active",
+  "rpc": ["https://omega.omni.network", "wss://wss.omega.omni.network"],
   "features": [{ "name": "EIP155" }],
   "faucets": [],
   "nativeCurrency": {
@@ -11,19 +11,15 @@
     "decimals": 18
   },
   "infoURL": "https://docs.omni.network",
-  "shortName": "omni_testnet_164",
+  "shortName": "omni_omega",
   "chainId": 164,
   "networkId": 164,
   "slip44": 1,
+  "icon": "omni",
   "explorers": [
     {
-      "name": "Omni X-Explorer",
-      "url": "https://explorer.testnet.omni.network",
-      "standard": "none"
-    },
-    {
-      "name": "Omni EVM Explorer on Blockscout",
-      "url": "https://omni-testnet.blockscout.com",
+      "name": "Omni EVM and cross-chain Explorer",
+      "url": "https://omega.omniscan.network",
       "standard": "EIP3091"
     }
   ]
